@@ -8,13 +8,13 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <Booking />
-    // <BrowserRouter>
-    //   <Routes>
-    //     <Route path="/" element={<Booking />} />
-    //     <Route path="/booking" element={<MultiStepForm />} />
-    //   </Routes>
-    // </BrowserRouter>
+    // <Booking />
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Booking />} />
+        <Route path="/booking" element={<MultiStepForm />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
