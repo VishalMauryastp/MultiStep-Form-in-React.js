@@ -12,7 +12,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Booking />} />
-        <Route path="/booking" element={<MultiStepForm />} />
+        <Route path="/janakpuri/booking" element={<MultiStepForm />} />
       </Routes>
     </BrowserRouter>
   );
